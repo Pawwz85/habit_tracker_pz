@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9890131-f081-4486-bd14-cc495a1f7064" name="Changes" comment="- Updated environmental variable generation">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_2025_01_33__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_06_2025_01_33__Changes_.xml" afterDir="false" />
+    <list default="true" id="e9890131-f081-4486-bd14-cc495a1f7064" name="Changes" comment="Added migration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habits/Core/Habit.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/Core/Habit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habits/Core/HabitService.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/Core/HabitService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habits/Core/Repositories.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/Core/Repositories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habits/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habits/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/habits/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/habits/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +26,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,16 +54,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Reverting in main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Pawwz/PycharmProjects/PZHabitTracker",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pawwz/PycharmProjects/PZHabitTracker&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pawwz\PycharmProjects\PZHabitTracker\Documentation" />
@@ -95,6 +94,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -169,62 +175,13 @@
       <option name="project" value="LOCAL" />
       <updated>1750690631031</updated>
     </task>
-    <task id="LOCAL-00009" summary="- added wait_for_db command to container start up">
-      <option name="closed" value="true" />
-      <created>1750691105755</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1750691105755</updated>
-    </task>
-    <task id="LOCAL-00010" summary="- added procfile for heroku deployment">
-      <option name="closed" value="true" />
-      <created>1752091197055</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1752091197055</updated>
-    </task>
-    <task id="LOCAL-00011" summary="- Disabled static files app">
-      <option name="closed" value="true" />
-      <created>1752092267731</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1752092267731</updated>
-    </task>
-    <task id="LOCAL-00012" summary="- Updated environmental variable generation">
-      <option name="closed" value="true" />
-      <created>1752095346920</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1752095346920</updated>
-    </task>
-    <task id="LOCAL-00013" summary="- Updated environmental variable generation">
-      <option name="closed" value="true" />
-      <created>1752095504103</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1752095504103</updated>
-    </task>
-    <task id="LOCAL-00014" summary="- Updated environmental variable generation">
-      <option name="closed" value="true" />
-      <created>1752095986242</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1752095986242</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="695b9759-580a-47bb-ab79-5b6a13c787c6" value="TOOL_WINDOW" />
-        <entry key="affa7d70-128a-4e60-ba4e-fa0be6a88f5d" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
@@ -256,31 +213,6 @@
             </State>
           </value>
         </entry>
-        <entry key="affa7d70-128a-4e60-ba4e-fa0be6a88f5d">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:C:/Users/Pawwz/PycharmProjects/PZHabitTracker/env" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
-          </value>
-        </entry>
       </map>
     </option>
   </component>
@@ -292,10 +224,6 @@
     <MESSAGE value="Implemented new repository implementations that target provided database objects" />
     <MESSAGE value="Added postgres database to docker&#10;Added script to generate development environment" />
     <MESSAGE value="Added migration" />
-    <MESSAGE value="- added wait_for_db command to container start up" />
-    <MESSAGE value="- added procfile for heroku deployment" />
-    <MESSAGE value="- Disabled static files app" />
-    <MESSAGE value="- Updated environmental variable generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Updated environmental variable generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added migration" />
   </component>
 </project>
