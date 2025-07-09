@@ -77,10 +77,7 @@ db_env_rules = {
     "DB_PASSWORD":      EnvCreatorRule("Enter db password [generate random]", pass_gen),
     "DB_NAME":          EnvCreatorRule("Enter db name [my-db]", 'my-db'),
     "DB_HOST":          EnvCreatorRule("Enter db host [db]", "db"),
-    'DB_PORT':          EnvCreatorRule("Enter db port [5432]", '5432'),
-    'APP_HOST':         EnvCreatorRule("Enter app host [0.0.0.0]", '0.0.0.0'),
-    'PORT':         EnvCreatorRule("Enter app port [8000]", '8000'),
-    'APP_SECRET_KEY':   EnvCreatorRule("Enter app secret key [generate random]", pass_gen)
+    'DB_PORT':          EnvCreatorRule("Enter db port [5432]", '5432')
 }
 
 

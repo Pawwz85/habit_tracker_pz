@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9890131-f081-4486-bd14-cc495a1f7064" name="Changes" comment="- Disabled static files app">
-      <change beforePath="$PROJECT_DIR$/PZHabitTracker/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZHabitTracker/settings.py" afterDir="false" />
+    <list default="true" id="e9890131-f081-4486-bd14-cc495a1f7064" name="Changes" comment="- Updated environmental variable generation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,13 +198,30 @@
       <option name="project" value="LOCAL" />
       <updated>1752092267731</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- Updated environmental variable generation">
+      <option name="closed" value="true" />
+      <created>1752095346920</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752095346920</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- Updated environmental variable generation">
+      <option name="closed" value="true" />
+      <created>1752095504103</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752095504103</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="695b9759-580a-47bb-ab79-5b6a13c787c6" value="TOOL_WINDOW" />
+        <entry key="affa7d70-128a-4e60-ba4e-fa0be6a88f5d" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
@@ -236,6 +253,31 @@
             </State>
           </value>
         </entry>
+        <entry key="affa7d70-128a-4e60-ba4e-fa0be6a88f5d">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Pawwz/PycharmProjects/PZHabitTracker/env" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -250,6 +292,7 @@
     <MESSAGE value="- added wait_for_db command to container start up" />
     <MESSAGE value="- added procfile for heroku deployment" />
     <MESSAGE value="- Disabled static files app" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Disabled static files app" />
+    <MESSAGE value="- Updated environmental variable generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Updated environmental variable generation" />
   </component>
 </project>
